@@ -18,7 +18,7 @@ export default function LoginPage() {
         e.preventDefault();
         if (email && password) {
             // Replicating the archive behavior: redirect to the student portal
-            window.location.href = 'https://student-portal-sooty-five.vercel.app';
+            window.location.href = 'https://student-portal-sooty-five.vercel.app/dashboard';
         } else {
             alert('Please fill in all fields.');
         }
